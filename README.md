@@ -50,7 +50,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/40-grupe-portfolio.git
+    git clone https://github.com/front-end-by-rimantas/41-grupe-portfolio-docland.git
     ```
 2. Install NPM packages
     ```sh
