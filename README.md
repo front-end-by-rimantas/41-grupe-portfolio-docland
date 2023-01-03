@@ -4,7 +4,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Cristino
+# Docland
 
 _website design project_
 
@@ -14,9 +14,9 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/40-grupe-portfolio/
+Site published at: https://github.com/front-end-by-rimantas/41-grupe-portfolio-docland
 
-Design: [Cristino](https://shreethemes.in/cristino/layouts/index.html)
+Design: [Docland](https://themelooks.org/demo/docland/html/index.html)
 
 ## 🎯 Project features/goals
 
@@ -26,7 +26,6 @@ Design: [Cristino](https://shreethemes.in/cristino/layouts/index.html)
 -   animations
 -   icons
 -   content rendering
--   gallery
 -   slider
 
 ## 🧰 Getting Started
@@ -73,6 +72,16 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+
+Paulius: [Github](https://github.com/PauliusJaras)
+
+Airidas: [Github](https://github.com/airidasju)
+
+Povilas: [Github](https://github.com/PoPe-git)
+
+Sigita: [Github](https://github.com/SigitaZaromskiene)
+
+Gedas: [Github](https://github.com/wilksa)
 
 ## ⚠️ License
 
