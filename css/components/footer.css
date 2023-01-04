@@ -1,0 +1,91 @@
+.home-page-footer {
+display:grid;
+grid-template-columns: 2fr 1fr 1fr 2fr;
+margin-top:40px;
+gap: 40px;
+
+}
+
+footer> .first-footer-column, .last-footer-column {
+    width:500px;
+}
+
+.home-page-footer  h3 {
+    color: #292929;
+    font-size: 28px;
+    font-weight: 700;
+    margin:0px;
+    margin-bottom: 20px;
+
+}
+
+.home-page-footer  p, a{
+    line-height: 1.5;
+    font-size: 18px;
+    font-size: 200;
+    padding:0px;
+    color: #292929b6;
+    margin:0px;
+}
+
+.home-page-footer a {
+text-decoration: none;
+}
+
+.home-page-footer a:hover {
+color:#5DD9C1;
+margin-left:10px;
+transition: 1s all;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.footer-form-flex {
+    display: flex;
+}
+
+.footer-form-flex form {
+   width: 100%;
+   margin-top: 10px;
+   padding:10px 20px;
+   border-radius: 25px;
+    background-color: #5DD9C1;
+}
+
+.footer-form-flex input {
+   width: 90%;
+   padding: 10px 15px;
+   border:1px solid transparent;
+    background-color: #5DD9C1;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.footer-form-flex input::placeholder{
+    color: white;
+    font-size: 18px;
+
+}
+  
+.btn-subscribe {
+    background-color: #FBC006;
+    border:none;
+    margin-top: 10px;
+    padding: 10px 30px;;
+    border-radius: 25px;
+    margin-left:-40px;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-subscribe:hover {
+color: #000;
+transition: 0.7s all;
+}
