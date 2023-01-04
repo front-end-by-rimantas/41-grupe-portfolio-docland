@@ -1,9 +1,8 @@
 .home-page-footer {
-display:grid;
-grid-template-columns: 2fr 1fr 1fr 2fr;
-margin-top:40px;
-gap: 40px;
-
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    margin-top:40px;
+    gap: 40px;
 }
 
 footer> .first-footer-column, .last-footer-column {
@@ -17,14 +16,13 @@ footer> .first-footer-column p{
 .first-footer-column .socials {
     display:flex;
     gap:20px;
-    
 }
 
 .fa {
     background-color: rgba(249, 243, 243, 0.432);
-    padding:15px;
+    padding:1em;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 1em;
     border-radius: 50%;
 }
 
@@ -41,7 +39,6 @@ footer> .first-footer-column p{
     font-weight: 700;
     margin:0px;
     margin-bottom: 20px;
-
 }
 
 .home-page-footer  p, a{
@@ -54,14 +51,14 @@ footer> .first-footer-column p{
 }
 
 .home-page-footer a {
-text-decoration: none;
-color: #707070;
+    text-decoration: none;
+    color: #707070;
 }
 
 .home-page-footer a:hover {
-color:#5DD9C1;
-margin-left:10px;
-transition: 1s all;
+    color:#5DD9C1;
+    margin-left:10px;
+    transition: 1s all;
 }
 
 .columns {
@@ -75,17 +72,17 @@ transition: 1s all;
 }
 
 .footer-form-flex form {
-   width: 100%;
-   margin-top: 10px;
-   padding:10px 20px;
-   border-radius: 25px;
+    width: 100%;
+    margin-top: 10px;
+    padding:10px 20px;
+    border-radius: 25px;
     background-color: #5DD9C1;
 }
 
 .footer-form-flex input {
-   width: 90%;
-   padding: 10px 15px;
-   border:1px solid transparent;
+    width: 90%;
+    padding: 10px 15px;
+    border:1px solid transparent;
     background-color: #5DD9C1;
     outline: none;
     font-size: 18px;
@@ -95,7 +92,6 @@ transition: 1s all;
 .footer-form-flex input::placeholder{
     color: white;
     font-size: 18px;
-
 }
   
 .btn-subscribe {
@@ -112,7 +108,7 @@ transition: 1s all;
 }
 
 .btn-subscribe:hover {
-color: #000;
-transition: 0.7s all;
+    color: #000;
+    transition: 0.7s all;
 }
 
