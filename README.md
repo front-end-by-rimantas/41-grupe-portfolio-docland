@@ -16,7 +16,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://github.com/front-end-by-rimantas/41-grupe-portfolio-docland
 
-Design: [Docland](https://themelooks.org/demo/docland/html/index.html)
+Design: [Docland](https://themelooks.org/demo/docland/html/home-course.html)
 
 ## 🎯 Project features/goals
 
