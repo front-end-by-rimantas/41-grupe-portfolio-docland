@@ -3,7 +3,7 @@ header {
     display: flex;
 }
 
-header > div > div a {
+header > div a {
     text-decoration: none;
     padding: 0 24px;
 }
@@ -15,24 +15,24 @@ header > div {
     width: 100%;
 }
 
-header > div > div {
+nav {
     display:flex;
     align-items: center;
     justify-content: center;
 }
 
-header > div > div > ul {
+nav > ul {
     display:flex;
     list-style: none;
 }
 
-header > div > div > ul a {
+nav > ul a {
     color: #6f7c6a;
     transition: all 0.3s;
     font-size: 20px;
 }
 
-header > div > div > div > a:nth-last-child(1) {
+nav > div > a:nth-last-child(1) {
     padding: 15px 33px;
     border-radius: 6px;
     background-color: var(--green-color);
@@ -41,24 +41,24 @@ header > div > div > div > a:nth-last-child(1) {
     font-weight: 500;
 }
 
-header > div > div > div >a:nth-last-child(1):hover {
+nav > div >a:nth-last-child(1):hover {
     background-color: var(--yellow-color);
 }
 
 
-header > div > div > ul a:hover {
+nav > ul a:hover {
     color: var(--green-color);
     
 }
 
-header > div > div > div >a:nth-last-child(2) {
+nav > div >a:nth-last-child(2) {
     color: var(--yellow-color);
     font-weight: 500;
     position: relative;
 }
 
 
-header > div > div > div > a:nth-last-child(2)::before {
+nav div > a:nth-last-child(2)::before {
     border-bottom: solid 1px var(--yellow-color);
     content: '';
     width: calc(100% - 48px);
