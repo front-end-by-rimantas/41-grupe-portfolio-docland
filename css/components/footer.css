@@ -2,29 +2,11 @@ footer {
     margin-top: 40px;
 }
 
-footer .row {
-    display: flex;
-    gap: 30px;
-
-}
- footer .col-4, footer .col-2 {
-    padding: 0 8px 30px 8px;
- }
-
-  footer .col-4 p {
-    margin-right: 15px;
- }
-
 footer .socials {
     display: flex;
     gap: 15px;
 }
 
-footer .col-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start
-}
 
 footer .fa {
     background-color: rgba(249, 243, 243, 0.432);
@@ -134,10 +116,3 @@ footer .btn-subscribe:hover {
 }
 
 
-@media (min-width: 1200px) {
-.container > .row {
-        width: 1140px;
-        margin: 0 calc(50% - 570px);
-    }
-    
-}
