@@ -133,3 +133,11 @@ footer .btn-subscribe:hover {
     transition: 0.7s all;
 }
 
+
+@media (min-width: 1200px) {
+.container > .row {
+        width: 1140px;
+        margin: 0 calc(50% - 570px);
+    }
+    
+}
