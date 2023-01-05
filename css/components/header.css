@@ -27,7 +27,7 @@ header > div > div > ul {
 }
 
 header > div > div > ul a {
-    color: var(--main-font-color);
+    color: #6f7c6a;
     transition: all 0.3s;
     font-size: 20px;
 }
