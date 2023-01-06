@@ -1,5 +1,6 @@
 footer {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 footer .socials {
@@ -54,10 +55,12 @@ footer a {
     font-weight: 300;
 }
 
- footer .light{
+ footer .light {
      font-weight: 300;
      margin-bottom: 30px;
  }
+
+ 
 
 footer a:hover {
     color:var(--green-color);
@@ -116,3 +119,25 @@ footer .btn-subscribe:hover {
 }
 
 
+@media (max-width: 1400px) {
+     footer .row {
+        text-align:center;
+     }
+     .socials  {
+        justify-content: center;
+        margin-bottom: 100px;
+     }
+     footer a {
+        justify-content: center;
+     }
+}
+
+
+@media (max-width: 945px) {
+ .subscribe {
+    margin-top: 100px;
+ }
+ footer p {
+    justify-content: center;
+ }
+}
