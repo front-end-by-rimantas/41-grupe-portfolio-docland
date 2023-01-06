@@ -5,34 +5,71 @@ header {
 
 header > div a {
     text-decoration: none;
-    padding: 0 24px;
+}
+
+header > div > a {
+    padding: 0 15px;
+    width: 205px;
+}
+
+header > div > div {
+    width: 1145px;
 }
 
 header > div {
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: center;
+    width: 1410px;
+    margin: 0 calc(50% - 705px);
 }
 
 nav {
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    padding: 0 15px
 }
 
 nav > ul {
     display:flex;
     list-style: none;
+    align-items: center;
 }
 
 nav > ul a {
     color: #6f7c6a;
     transition: all 0.3s;
     font-size: 20px;
+    padding: 0 24px;
 }
 
-nav > div > a:nth-last-child(1) {
+nav > ul a:hover {
+    color: var(--green-color);
+    
+}
+
+nav > .fa {
+    display: none;
+}
+
+nav > div > a:nth-child(1) {
+    color: var(--yellow-color);
+    font-weight: 500;
+    position: relative;
+    margin-right: 36px;
+}
+
+
+nav > div > a:nth-child(1)::before {
+    border-bottom: solid 1px var(--yellow-color);
+    content: '';
+    width: 41px;
+    position: absolute;
+    bottom: -10px;
+}
+
+nav > div > a:nth-child(2) {
     padding: 15px 33px;
     border-radius: 6px;
     background-color: var(--green-color);
@@ -41,29 +78,43 @@ nav > div > a:nth-last-child(1) {
     font-weight: 500;
 }
 
-nav > div >a:nth-last-child(1):hover {
+nav > div >a:nth-child(2):hover {
     background-color: var(--yellow-color);
 }
 
 
-nav > ul a:hover {
-    color: var(--green-color);
-    
+
+
+@media (min-width: 576px) {
+   
 }
 
-nav > div >a:nth-last-child(2) {
-    color: var(--yellow-color);
-    font-weight: 500;
-    position: relative;
+@media (min-width: 768px) {
+
 }
 
+@media (max-width: 992px) {
+    nav > .fa {
+        display: inline;
+    }
+    nav > ul {
+        display: none;
+    }
+    nav > div {
+        display: none;
+    }
+    header > div {
+        justify-content: space-between;
+        padding: 0px 150px;
+    }
+}
 
-nav div > a:nth-last-child(2)::before {
-    border-bottom: solid 1px var(--yellow-color);
-    content: '';
-    width: calc(100% - 48px);
-    position: absolute;
-    left: 24px;
-    bottom: -10px;
+@media (max-width: 1200px) {
+   
+}
 
+@media (max-width: 1400px) {
+    header > div {
+        justify-content: center;
+    }
 }
