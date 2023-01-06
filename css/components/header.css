@@ -8,13 +8,13 @@ header > div a {
     text-decoration: none;
 }
 
-header > div > a {
+header > div > a > img {
     padding: 0 15px;
 }
 
 
 header > div {
-    width: 1410px;
+width: 1410px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -31,6 +31,7 @@ nav > ul {
     display:flex;
     list-style: none;
     align-items: center;
+    margin: 0 26px 0 38px;
 }
 
 nav > ul a {
