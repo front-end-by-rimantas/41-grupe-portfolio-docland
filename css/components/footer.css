@@ -133,7 +133,7 @@ footer .btn-subscribe:hover {
 }
 
 
-@media (max-width: 945px) {
+@media (max-width: 1000px) {
  .subscribe {
     margin-top: 100px;
  }
