@@ -1,6 +1,8 @@
 .section-title{
     display:flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 .section-title h2 {
@@ -64,4 +66,16 @@
     background-color: #ffffff;
     box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
     border-radius: 20px;
+}
+
+.video-preview{
+    font-size: 18px;
+}
+
+#play{
+    color: var(--green-color);
+}
+
+.accordion-content a {
+    text-decoration: none;
 }
