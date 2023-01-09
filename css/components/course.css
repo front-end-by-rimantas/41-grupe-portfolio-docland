@@ -1,0 +1,67 @@
+.section-title{
+    display:flex;
+    align-items: center;
+}
+
+.section-title h2 {
+    color: var(--main-font-color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.35;
+    white-space: nowrap;
+}
+
+.accordion-title p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.accordion-title span {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.card-active{
+    display: flex;
+}
+
+.accordion-week{
+    text-align: center;
+}
+
+.accordion-title h3{
+    color: var(--main-font-color);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.accordion-week i{
+    color: var(--yellow-color);
+    font-size: 32px;
+    margin: 12px;
+}
+
+.btn-syllabus{
+    white-space: nowrap;
+    color: var(--main-font-color);
+    text-decoration: none;
+    border: 1px solid var(--green-color);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 33px;
+}
+
+.card{
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
+    border-radius: 20px;
+}
