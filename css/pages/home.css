@@ -15,8 +15,7 @@
 .course-instructor {
     font-family: 'Ubuntu', sans-serif;
     color: var(--main-font-color);
-    
-
+   
 }
 
 .course-instructor h2 {
@@ -26,47 +25,56 @@
 }
 
 .course-in-flex {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    flex-wrap: wrap;
     margin-bottom: 30px;
+    background-color: #FFF;
+    
     
 }
 
 .course-instr-backround {
     background-color: #FFF;
-    padding: 40px 70px;
+    padding: 60px 50px;
     border-radius: 25px;
+    box-shadow: 0 2px 4px #0003;
 }
 
 .course-instructor h4 {
     font-size: 24px;
-    margin-bottom: 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    
 }
 
 .course-instructor .sub-title {
     font-size: 18px;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 .course-instructor ul > li {
-    display:flex;
+    display: flex;
     gap: 30px;
     align-items: center;
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 300;
     color: #707070;
+    background-color: #FFF;
 
-  
 }
 
 .course-instructor p {
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.8;
     font-weight: 300;
     color: #707070;
+    background-color: #FFF;
+  
 }
 
 .course-instructor i {
@@ -75,4 +83,48 @@
     width: 0.2em;
     line-height: 0.2em;
     font-size: 20px;
+}
+
+
+@media (max-width: 1500px) {
+ .course-in-flex img {
+    margin-right: 20px;
+     grid-template-columns: 1fr 1fr;
+}
+
+.course-instr-backround {
+    background-color: #FFF;
+    padding: 60px 30px;
+}
+}
+
+@media (max-width: 1200px) {
+
+    .course-in-flex {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .course-in-flex {
+        grid-template-columns: 1fr 1.5fr;
+        gap: 0;
+    }
+    .course-instr-backround {
+        background-color: #FFF;
+        padding: 60px 50px;
+        margin-bottom: 30px;
+}
+}
+
+@media (max-width: 770px) {
+     .course-in-flex {
+        grid-template-columns: 1fr;
+}
+
+.course-in-flex img {
+    margin-bottom: 20px;
+}
 }
