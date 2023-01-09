@@ -510,10 +510,10 @@
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
     .container > .row {
-        width: 1320px;
-        margin: 0 calc(50% - 660px);
+        width: 1410px;
+        margin: 0 calc(50% - 705px);
     }
 
     .container > .row > .col-xxl-1 {
