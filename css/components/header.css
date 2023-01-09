@@ -97,10 +97,6 @@ nav > div >a:nth-child(2):hover {
     }
 }
 
-@media (min-width: 768px) {
-    
-}
-
 @media (min-width: 992px) {
     
     nav > ul {
@@ -119,8 +115,4 @@ nav > div >a:nth-child(2):hover {
     nav > ul a {
         padding: 0 24px;
     }
-}
-
-@media (min-width: 1500px) {
-
 }
