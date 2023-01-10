@@ -1,7 +1,6 @@
 header {
     height: 100px;
     display: flex;
-    justify-content: center;
 }
 
 header > div a {
@@ -12,9 +11,11 @@ header > div > a > img {
     padding: 0 15px;
 }
 
+header.container {
+    padding: 0px;
+}
 
 header > div {
-width: 1410px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -28,17 +29,21 @@ nav {
 }
 
 nav > ul {
-    display:flex;
+    display: none;
     list-style: none;
     align-items: center;
     margin: 0 26px 0 38px;
+}
+
+nav > div {
+    display: none;
 }
 
 nav > ul a {
     color: #6f7c6a;
     transition: all 0.3s;
     font-size: 20px;
-    padding: 0 24px;
+    padding: 0 10px;
 }
 
 nav > ul a:hover {
@@ -46,9 +51,7 @@ nav > ul a:hover {
     
 }
 
-nav > .fa {
-    display: none;
-}
+
 
 nav > div > a:nth-child(1) {
     color: var(--yellow-color);
@@ -83,35 +86,33 @@ nav > div >a:nth-child(2):hover {
 
 
 @media (min-width: 576px) {
-   
-}
-
-@media (min-width: 768px) {
-
-}
-
-@media (max-width: 992px) {
-    nav > .fa {
-        display: inline;
-    }
-    nav > ul {
+   nav > ul {
         display: none;
     }
     nav > div {
         display: none;
     }
-    header > div {
-        justify-content: space-between;
-        padding: 0px 150px;
+    nav > a {
+        display: inline;
     }
 }
 
-@media (max-width: 1200px) {
-   
+@media (min-width: 992px) {
+    
+    nav > ul {
+        display:flex;
+    }
+    nav > div {
+        display:inline-block;
+    }
+    nav > a {
+        display: none !important;
+    }
+
 }
 
-@media (max-width: 1400px) {
-    header > div {
-        justify-content: center;
+@media (min-width: 1200px) {
+    nav > ul a {
+        padding: 0 24px;
     }
 }
