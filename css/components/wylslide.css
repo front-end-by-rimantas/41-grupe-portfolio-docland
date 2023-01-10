@@ -1,0 +1,30 @@
+.pre-btn {
+    transform: rotate(180deg);
+  }
+.pre-btn,
+.nxt-btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    float: right;
+}
+  .imagegroup {
+      display: flex;
+      width: 100%;
+     }
+   
+   .imagegroup>img{
+     flex-shrink: 0;
+     object-fit: cover;
+     border: 1em solid  rgba(255,255,255,0);
+  }
+  .slideshow {
+      max-width: 1400px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      display: flex;
+    }
+     
+     
