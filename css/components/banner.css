@@ -1,0 +1,52 @@
+.banner {
+    /* display: flex;
+    width: 100%; */
+
+
+}
+
+.container > .row > .left-bn h1 {
+    font-family: 'Hind' !important;
+    font-size: 60px;
+    line-height: 1.17;
+    /* font-weight: 600; */
+}
+
+.container > .row > .left-bn > .bn-text {
+    line-height: 2;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 1.78;
+    color: #5c6b56;
+    margin-bottom: 34px;
+}
+
+.container > .row > .left-bn > .bn-text > p {
+    font-weight: 300;
+}
+
+.container > .row > .left-bn > .bn-text > .don {
+    color: var(--green-color);
+}
+
+.container > .row > .left-bn > .star > .fa {
+    color: var(--yellow-color);
+    margin-right: 5px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: baseline;
+    
+    
+}
+
+.container > .row > .left-bn > .star {
+    display: flex;
+  align-items: center;
+
+}
+
+.container > .row > .left-bn > .star > .count-nmb {
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 300;
+}
