@@ -50,11 +50,11 @@
 }
 
 .accordion-rest{
-    margin-right: 50px;
+    margin-right: 75px;
 }
 
 .accordion-week{
-    margin-left: 50px;
+    margin-left: 75px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -209,5 +209,26 @@
     .accordion span {
         font-size: 14px;
         margin-right: 20px;
+    }
+
+    .accordion-content p,a{
+        font-size: 14px;
+    }
+
+    .video-preview{
+        font-size: 14px;
+    }
+    
+    .left-content{
+        padding-right: 10px;
+    }
+
+    .right-content a{
+        padding-left: 20px;
+    }
+
+    .right-content i{
+        margin-left: 35px;
+        margin-right: 35px;
     }
 }
