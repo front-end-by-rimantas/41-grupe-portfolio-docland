@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700&display=swap');
+
+
+:root {
+  --yellow-color:#fbc006;
+  --green-color: #5dd9c1;
+  --main-font-color:#292929;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    vertical-align:top;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F6F8F5;
+}
