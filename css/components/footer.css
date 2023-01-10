@@ -1,0 +1,143 @@
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer .socials {
+    display: flex;
+    gap: 15px;
+}
+
+
+footer .fa {
+    background-color: rgba(249, 243, 243, 0.432);
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 16px;
+    line-height: 2.5em;
+    text-align: center;
+    border-radius: 50%;
+  
+}
+
+footer .fa:hover {
+    color:white;
+    background-color: var(--green-color);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+footer h3 {
+    color: (--main-font-color);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+
+footer h2 {
+    color: (--main-font-color);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer p,  footer a {
+    display: flex;
+    line-height: 28px;
+    font-size: 16px;
+    color: #707070;
+    
+}
+
+footer a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+ footer .light {
+     font-weight: 300;
+     margin-bottom: 30px;
+ }
+
+ 
+
+footer a:hover {
+    color:var(--green-color);
+    margin-left: 10px;
+    transition: 1s all;
+}
+
+footer .footer-form-flex {
+    display: flex;
+}
+
+footer .footer-form-flex form {
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 35px;
+    background-color: var(--green-color)
+}
+
+footer .footer-form-flex input {
+    width: 95%;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    background-color: var(--green-color);
+    outline: none;
+    font-size: 18px;
+}
+
+
+footer .footer-form-flex input::placeholder{
+    color: rgba(255, 255, 255, 0.947);
+    font-size: 17px;
+}
+
+footer input, select, textarea{
+    color: white;
+}
+
+  
+footer .btn-subscribe {
+    background-color: var(--yellow-color);
+    border: none;
+    margin-top: 20px;
+    padding: 8px 30px;;
+    border-radius: 35px;
+    margin-left: -50px;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer .btn-subscribe:hover {
+    color: #000;
+    transition: 0.7s all;
+}
+
+
+@media (max-width: 1400px) {
+     footer .row {
+        text-align:center;
+     }
+     .socials  {
+        justify-content: center;
+        margin-bottom: 100px;
+     }
+     footer a {
+        justify-content: center;
+     }
+}
+
+
+@media (max-width: 990px) {
+ .subscribe {
+    margin-top: 100px;
+ }
+ footer p {
+    justify-content: center;
+ }
+}
