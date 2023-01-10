@@ -3,3 +3,130 @@
     align-items: center;
     justify-content: center;
 }
+
+.price{
+    display: flex;
+    align-items: flex-end;
+}
+
+.price strong {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.48;
+    padding-right: 10px;
+    color: var(--green-color);
+    font-family: 'Hind', sans-serif;
+}
+
+.price span {
+    font-size: 18px;
+    color: #707070;
+    padding-bottom: 23px;
+}
+
+.price > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card{
+    box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
+    background-color: #FFF;
+    max-width: 440px;
+    border-radius: 20px;
+    padding: 50px 60px 60px;
+    margin-bottom: 30px;
+    line-height: 1.78;
+}
+
+.pricing-card p {
+    color: #707070;
+    font-weight: 300;
+    font-size: 16px;
+    max-width: 320px;
+    padding-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.pricing-card > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pricing-card > ul > li > i {
+    margin-right: 10px;
+    color: var(--green-color);
+}
+
+.btn-enroll{
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+    padding: 15px 33px;
+    border-radius: 6px;
+    background-color: var(--yellow-color);
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 500;
+    outline: 0;
+}
+
+.green-card {
+    background-color: var(--green-color);
+    color: white;
+}
+
+.green-card > ul > li > i {
+    color: white;
+}
+
+.green-card del {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    color: #cbfff5;
+    font-family: 'Hind', sans-serif;
+}
+
+.green-card p {
+    color: white;
+}
+
+.green-card strong{
+    color: white;
+}
+
+.green-card span {
+    color: white;
+}
+
+.green-card .btn-enroll{
+    color: var(--green-color);
+    background-color: #fff;
+}
+
+.btn-enroll:hover{
+    background-color: var(--green-color);
+    transition: .3s linear;
+}
+
+.green-card > .btn-enroll:hover{
+    background-color: var(--yellow-color);
+    color: white;
+}
+
+@media (min-width: 768px){
+    .pricing-card{
+        padding: 30px 30px 40px;
+    }
+}
+    
