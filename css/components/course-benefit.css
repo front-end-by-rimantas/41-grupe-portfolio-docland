@@ -1,3 +1,8 @@
+.section-title {
+    display: flex;
+    justify-content: space-between;
+}
+
 .course-benefits {
     display:flex;
     justify-content: space-between;
@@ -18,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 0px 10px 10px 0px;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .benefit-icon {
@@ -29,7 +34,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px 0px 0px 10px;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .course-benefits > .benefit-tile:nth-child(1) > div:nth-child(1) {
