@@ -8,6 +8,7 @@
 @import url('../components/header.css');
 @import url('../components/footer.css');
 @import url('../components/form.css');
+@import url('../components/course.css');
 
 /* CUSTOM */
 
@@ -45,6 +46,7 @@
     font-size: 24px;
     background-color: #fff;
     margin-bottom: 5px;  
+    
 }
 
 .course-instructor .sub-title {
