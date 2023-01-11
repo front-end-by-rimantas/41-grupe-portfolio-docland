@@ -1,0 +1,41 @@
+.course-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 120px;
+    background-color: var(--green-color);
+    border-radius: 25px;
+
+}
+
+.course-form h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.course-form input {
+    width:80%;
+    border: 1px solid transparent;
+    padding: 20px 10px;
+    background-color: var(--green-color);
+    border-bottom: 2px solid white;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    
+ 
+
+}
+.course-form input::placeholder {
+   color:white;
+   font-size: 17px;
+  
+}
+
+.course-form input, select, textarea{
+    background-color: var(--green-color);
+}
