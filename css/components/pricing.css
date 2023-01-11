@@ -70,7 +70,7 @@
 .btn-enroll{
     font-family: 'Hind', sans-serif;
     text-decoration: none;
-    padding: 15px 33px;
+    padding: 10px 33px;
     border-radius: 6px;
     background-color: var(--yellow-color);
     color: #FFF;
@@ -92,7 +92,7 @@
 .green-card del {
     font-size: 24px;
     font-weight: 600;
-    line-height: 1;
+    line-height: 0.5;
     color: #cbfff5;
     font-family: 'Hind', sans-serif;
 }
@@ -124,7 +124,7 @@
     color: white;
 }
 
-@media (min-width: 768px){
+@media (max-width: 1200px){
     .pricing-card{
         padding: 30px 30px 40px;
     }
