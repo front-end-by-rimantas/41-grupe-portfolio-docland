@@ -1,8 +1,15 @@
+.banner {
+  padding-top: 8.5em;
+  padding-bottom: 25em;
+  /* display: block;
+  margin: auto; */
+}
+
 .container > .row > .left-bn h1 {
-    font-family: 'Hind' !important;
+    font-family: 'Hind';
     font-size: 60px;
     line-height: 1.17;
-    /* font-weight: 600; */
+    font-weight: 600;
 }
 
 .container > .row > .left-bn > .bn-text {
@@ -24,12 +31,10 @@
 
 .container > .row > .left-bn > .star > .fa {
     color: var(--yellow-color);
-    margin-right: 5px;
-    margin-bottom: 6px;
+    padding: 0.3em;
     display: flex;
     align-items: baseline;
-    /* background-position: center; */
-    /* position: absolute; */
+    
     
     
 }
@@ -73,7 +78,7 @@
     border: none;
     cursor: pointer;
     text-underline-offset: 5px;
-    transition: .3s linear;
+    transition: .3s;
 }
 
 .btn-Financial {
@@ -86,9 +91,94 @@
   height: 1px;
   display: block;
   background: black;
-  transition: 300ms;
+  transition: 200ms;
 }
 
 .btn-Financial:hover::after {
   width: 100%;
 }
+
+
+.container > .row > .right-bn {
+  display: inline-block;
+  align-items: top;
+  position: relative; 
+}
+
+
+.container > .row > .right-bn > {
+  position: relative;
+  top: 0px;
+  left: 0;
+
+}
+
+.container > .row > .right-bn > div > .main-img {
+  max-width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+
+}
+.container > .row > .right-bn > div > .heksagon {
+  position: absolute;
+  top: -3.6em;
+  left: -4.6em;
+
+}
+.container > .row > .right-bn > div > .circle {
+  position: absolute;
+  top: 16.5em;
+  left: 22.5em;
+}div
+.btn-play {
+    text-decoration: none;
+    padding: 0.9em 1.1em;
+    border-radius: 100px;
+    background-color: var(--yellow-color);
+    color: white;
+    font-size: 22px;
+    transition: all 0.3s;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.btn-play:hover {
+  background-color: var(--green-color)
+}
+
+.container > .row > .right-bn > .play {
+  padding: 14em 16.5em; 
+}
+
+
+
+
+@media (max-width: 1500px) {
+
+  .container > .row > .right-bn > div > .circle {
+    top: 14em;
+    left: 14em;
+  }
+
+  .container > .row > .right-bn > .play {
+  padding: 12em 15em; 
+}
+
+ }
+
+
+ @media (max-width: 1200px) {
+
+  .container > .row > .right-bn > div > .circle {
+    top: 9em;
+    left: 8em;
+  }
+
+    .container > .row > .right-bn > .play {
+  padding: 9.5em 12.5em; 
+}
+
+ }
