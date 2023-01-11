@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: flex-start;
     float: right;
+    border: 0.5em solid  rgba(255,255,255,0);
 }
   .imagegroup {
       display: flex;

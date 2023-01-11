@@ -81,8 +81,6 @@ Povilas: [Github](https://github.com/PoPe-git)
 
 Sigita: [Github](https://github.com/SigitaZaromskiene)
 
-Gedas: [Github](https://github.com/wilksa)
-
 ## ⚠️ License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
