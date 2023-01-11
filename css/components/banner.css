@@ -1,8 +1,11 @@
 .banner {
   padding-top: 8.5em;
   padding-bottom: 25em;
-  /* display: block;
-  margin: auto; */
+}
+
+.banner > .row {
+  display: flex;
+  align-items: center;
 }
 
 .container > .row > .left-bn h1 {
@@ -34,15 +37,15 @@
     padding: 0.3em;
     display: flex;
     align-items: baseline;
-    
-    
-    
 }
+
+/* .container > .row > .left-bn > .btn-both {
+
+} */
 
 .container > .row > .left-bn > .star {
     display: flex;
-  align-items: center;
-
+    align-items: center;
 }
 
 .container > .row > .left-bn > .star > .count-nmb {
@@ -153,9 +156,6 @@
   padding: 14em 16.5em; 
 }
 
-
-
-
 @media (max-width: 1500px) {
 
   .container > .row > .right-bn > div > .circle {
@@ -169,8 +169,7 @@
 
  }
 
-
- @media (max-width: 1200px) {
+@media (max-width: 1200px) {
 
   .container > .row > .right-bn > div > .circle {
     top: 9em;
@@ -179,6 +178,10 @@
 
     .container > .row > .right-bn > .play {
   padding: 9.5em 12.5em; 
+}
+
+.btn-Financial {
+padding-top: 2em;
 }
 
  }
