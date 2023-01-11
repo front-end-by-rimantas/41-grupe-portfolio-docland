@@ -1,18 +1,11 @@
   .banner {
-    /* display: inline-block; */
-    /* display: flex; */
-    padding-top: 8.5em;
-    padding-bottom: 25em;
-    /* align-items: center; */
-    /* display: table; */
+  padding-top: 8.5em;
+  padding-bottom: 25em;
   }
-  
-  .banner > div {
-    display: table;
-  /* display: inline-block; */
-  /* vertical-align: middle; */
-  /* display: inline-block; */
-  background-color: red;
+
+  .banner > .row {
+  display: flex;
+  align-items: center;
   }
 
   .container > .row > .left-bn h1 {
@@ -23,7 +16,7 @@
   }
 
   .container > .row > .left-bn > .bn-text {
-    line-height: 2px;
+    line-height: 2;
     letter-spacing: 1px;
     font-size: 20px;
     line-height: 1.78;
@@ -107,20 +100,10 @@
   
   
   .container > .row > .right-bn {
-    display: flex;
-    /* align-items: top; */
-    /* position: absolute; */
-    /* position: relative;  */
+    position: relative; 
   }
   
-  
-  .container > .row > .right-bn > {
-    position: relative;
-    top: 0px;
-    left: 0;
-  }
-  
-  .container > .row > .right-bn > div > .play {
+  .banner > .row {
     display: flex;
     align-items: center;
   }
@@ -163,8 +146,7 @@
   }
 
   .container > .row > .right-bn > .play {
-    /* padding: 14em 16.5em;  */
-      align-items: center;
+    padding: 14em 16.5em; 
   }
 
 
@@ -178,7 +160,7 @@
   }
 
   .container > .row > .right-bn > .play {
-    /* padding: 12em 15em;  */
+    padding: 12em 15em; 
   }
 
 }
@@ -192,8 +174,6 @@
 
   .container > .row > .right-bn > .play {
     padding: 9.5em 12.5em; 
-  
-
   }
 
   .btn-Financial {
@@ -201,3 +181,17 @@
   }
 
 }
+
+@media (max-width: 992px) {
+    .container > .row > .right-bn > div > .circle {
+      display: none !important;
+    }
+    .container > .row > .right-bn > div > .heksagon {
+      display: none !important;
+    }
+
+
+  }
+
+
+  
