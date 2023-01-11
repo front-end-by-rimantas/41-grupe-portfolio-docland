@@ -5,7 +5,6 @@
 
   .banner > .row {
   display: flex;
-  align-items: center;
   }
 
   .container > .row > .left-bn h1 {
@@ -176,9 +175,6 @@
     padding: 9.5em 12.5em; 
   }
 
-  .btn-Financial {
-    padding-top: 2em;
-  }
 
 }
 
