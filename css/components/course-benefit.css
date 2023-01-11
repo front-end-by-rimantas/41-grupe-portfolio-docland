@@ -11,6 +11,10 @@
     color: var(--main-font-color)
 }
 
+.course-buttons > a:first-child {
+    margin-right: 12px;
+}
+
 .benefit-tile {
     display:flex;
     justify-content: center;
