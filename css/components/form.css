@@ -59,9 +59,9 @@
     cursor: pointer;
     height: 100%;
 }
+/* kodel neveikia?? */
 
-/* kodel neveikia???? */
-button:hover {
+button img:hover {
     color: var(--yellow-color);
 }
 
