@@ -39,10 +39,6 @@
 
 
 
-.course-form .span-background:focus{
-    border-bottom: var(--yellow-color);
-}
-
 .course-form input::placeholder {
    color:white;
    font-size: 17px;
@@ -50,23 +46,23 @@
 
 
 .input-flex {
-    width:80%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.course-form-arrow {
-    border: none;
+
+.input-flex button {
     background-color: var(--green-color);
-    color: white;
-    font-size: 24px;
+    border: none;
     cursor: pointer;
+    height: 100%;
 }
 
-
-.course-form-arrow:hover {
-    color: var(--yellow-color)
+/* kodel neveikia???? */
+button:hover {
+    color: var(--yellow-color);
 }
 
 
