@@ -1,0 +1,80 @@
+.goals-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.goal-tile {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    padding: 40px;
+    gap:40px;
+    border-radius: 20px;
+}
+
+.goal-tile > a {
+    font-size: 24px;
+    font-family: 'Hind', sans-serif;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.goals-group > .sketch {
+    background-color: #85b6ff;
+}
+
+.goals-group > .prototype {
+    background-color: #ffcb87;
+}
+
+.goals-group > .wireframe {
+    background-color: #bf87ff;
+}
+
+.goals-group > .brain {
+    background-color: #929dff;
+}
+
+
+@media (max-width:1200px) {
+    .goals-group > .brain {
+        display:none;
+    }
+}
+
+
+@media (max-width:992px) {
+    .course-buttons {
+        display:none;
+    }
+    .goals-group > .wireframe {
+        display:none;
+    }
+    .section-title {
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .goals-group >.goal-tile {
+        width: 300px;
+    }
+}
+
+
+@media (max-width:576px) {
+    .prototype {
+        display: none;
+    }
+    .goals-group >.goal-tile {
+        width: 400px;
+    }
+    .goals-group {
+        justify-content: center;
+    }
+}
