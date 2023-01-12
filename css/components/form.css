@@ -82,7 +82,7 @@
      .course-form {
     padding-right:70px;
     padding-left:70px;
-    }
+    }  
 }
 
 @media(max-width:840px) {
@@ -90,4 +90,11 @@
     padding-right:10px;
     padding-left:10px;
     }
+    .course-form {
+    height: 300px;
+    }
+     .course-form h2 {
+    font-size: 30px;    
+    }
+     
 }
