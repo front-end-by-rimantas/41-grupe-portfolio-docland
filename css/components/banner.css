@@ -154,12 +154,12 @@
 @media (max-width: 1500px) {
 
   .container > .row > .right-bn > div > .circle {
-    top: 14em;
-    left: 14em;
+    top: 12em;
+    left: 11em;
   }
 
   .container > .row > .right-bn > .play {
-    padding: 12em 15em; 
+    padding: 12em 16em; 
   }
 
 }
@@ -167,8 +167,8 @@
 @media (max-width: 1200px) {
 
   .container > .row > .right-bn > div > .circle {
-    top: 9em;
-    left: 8em;
+    top: 6.5em;
+    left: 5.5em;
   }
 
   .container > .row > .right-bn > .play {
