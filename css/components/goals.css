@@ -55,9 +55,6 @@
     .goals-group > .wireframe {
         display:none;
     }
-    .section-title {
-        justify-content: center;
-    }
 }
 
 @media (max-width:768px) {
