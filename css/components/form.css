@@ -94,3 +94,14 @@ FIXED!!
     }
      
 }
+
+@media(max-width:400px) {
+
+    .span-background {
+        margin-bottom:30px;
+    }
+
+    .course-form h2{
+        font-size:28px;
+    }
+}
