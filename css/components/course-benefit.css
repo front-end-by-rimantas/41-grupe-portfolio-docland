@@ -1,0 +1,96 @@
+.section-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-benefits {
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    height: 135px;
+    color: var(--main-font-color)
+}
+
+.course-buttons > a:first-child {
+    margin-right: 12px;
+}
+
+.benefit-tile {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-tile > .benefit-icon > img{
+    height: 40px;
+    width: 40px;
+}
+
+.benefit-info {
+    background-color: white;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+    padding: 0px 20px;
+}
+
+.benefit-info > p {
+    color: gray;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.benefit-icon {
+    height:100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+    padding: 0px 20px;
+}
+
+.course-benefits > .benefit-tile:nth-child(1) > div:nth-child(1) {
+    background-color: #d7eff9;
+}
+.course-benefits > .benefit-tile:nth-child(2) > div:nth-child(1) {
+    background-color: #e6fffa;
+}
+.course-benefits > .benefit-tile:nth-child(3) > div:nth-child(1) {
+    background-color: #e9e6ff;
+}
+.course-benefits > .benefit-tile:nth-child(4) > div:nth-child(1) {
+    background-color: #fff6db;
+}
+
+@media (max-width: 452px) {
+    .course-buttons {
+        display: none;
+     }
+ }
+
+
+@media (max-width: 768px) {
+    .course-benefits > .benefit-tile:nth-child(2){
+        display: none;
+     }
+     .course-benefits{
+        justify-content: center;
+     }
+ }
+ 
+ @media (max-width: 1200px) {
+    .course-benefits > .benefit-tile:nth-child(3){
+        display: none;
+     }
+ }
+ 
+ @media (max-width: 1500px) {
+    .course-benefits > .benefit-tile:nth-child(4){
+        display: none;
+     }
+ }
