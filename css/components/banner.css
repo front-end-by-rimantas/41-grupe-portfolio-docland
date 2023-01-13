@@ -201,6 +201,12 @@
     height: auto;
   }
 
+  @media (max-width: 1500px) {
+    .circle {
+      padding-left: -100px;
+    }
+  }
+
   @media (max-width: 992px) {
     .circle {
       display: none;
