@@ -1,55 +1,61 @@
   .banner {
-  padding-top: 8.5em;
-  padding-bottom: 25em;
+    display: flex;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
   }
 
-  .banner > .row {
-  display: flex;
-  }
-
-  .container > .row > .left-bn h1 {
-    font-family: 'Hind';
+  .left-bn h1 {
+    font-family: 'Hind', sans-serif;
     font-size: 60px;
     line-height: 1.17;
     font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0;
   }
 
-  .container > .row > .left-bn > .bn-text {
-    line-height: 2;
-    letter-spacing: 1px;
-    font-size: 20px;
-    line-height: 1.78;
+  .left-bn > .bn-text > p{
     color: #5c6b56;
     margin-bottom: 34px;
-  }
-
-  .container > .row > .left-bn > .bn-text > p {
+    max-width: 560px;
     font-weight: 300;
+    font-size: 20px;
+    line-height: 1.78;
   }
 
-  .container > .row > .left-bn > .bn-text > .don {
+  .left-bn > .bn-text > .person {
+    font-weight: 400;
+    color: #707070;
+    font-size: 20px;
+    line-height: 1.78;
+    margin-bottom: 10px;
+  }
+
+  .left-bn > .bn-text > .person > span {
     color: var(--green-color);
+    font-weight: 600;
   }
 
-  .container > .row > .left-bn > .star > .fa {
+  .left-bn > .star > .fa {
     color: var(--yellow-color);
     padding: 0.3em;
     display: flex;
     align-items: baseline;
   }
 
-  .container > .row > .left-bn > .star {
+  .left-bn > .star {
     display: flex;
     align-items: center;
   }
 
-  .container > .row > .left-bn > .star > .count-nmb {
+  .left-bn > .star > .count-nmb {
     font-size: 20px;
     margin-left: 5px;
     font-weight: 300;
   }
 
-  .btn-Enroll {
+  .btn-enroll {
     text-decoration: none;
     padding: 15px 33px;
     border-radius: 6px;
@@ -61,14 +67,15 @@
     border: none;
     cursor: pointer;
     margin-right: 26px;
+    margin-bottom: 26px;
   }
   
-  .btn-Enroll:hover {
+  .btn-enroll:hover {
     background-color: var(--green-color)
   }
   
   
-  .btn-Financial {
+  .btn-financial {
     text-decoration: none;
     margin-left: 10px;
     color: black;
@@ -80,11 +87,11 @@
     transition: .3s;
   }
   
-  .btn-Financial {
+  .btn-financial {
     display: inline-block;
   }
   
-  .btn-Financial::after {
+  .btn-financial::after {
     content: '';
     width: 0px;
     height: 1px;
@@ -93,42 +100,17 @@
     transition: 200ms;
   }
   
-  .btn-Financial:hover::after {
+  .btn-financial:hover::after {
     width: 100%;
   }
-  
-  
-  .container > .row > .right-bn {
-    position: relative; 
-  }
-  
-  .banner > .row {
-    display: flex;
-    align-items: center;
-  }
-  
-  .container > .row > .right-bn > div > .main-img {
-    max-width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0;
 
+  div > .play{
+    position: relative;
   }
-  .container > .row > .right-bn > div > .heksagon {
-    position: absolute;
-    top: -3.6em;
-    left: -4.6em;
-
-  }
-  .container > .row > .right-bn > div > .circle {
-    position: absolute;
-    top: 16.5em;
-    left: 22.5em;
-  }
-
-  .container > .row > .right-bn > .play > .btn-play {
+  
+  .right-bn > .play > .btn-play {
     text-decoration: none;
-    padding: 0.9em 1.15em;
+    padding: 1em 1.15em;
     border-radius: 100px;
     background-color: var(--yellow-color);
     color: white;
@@ -138,56 +120,65 @@
     border: none;
     cursor: pointer;
     position: absolute;
+    left: 44%;
+    top: 44%;
+    z-index: 2;
   }
 
-  .container > .row > .right-bn > .play > .btn-play:hover {
+  .heksagon {
+    position: absolute;
+    left: -75px;
+    top: -60px;
+    z-index: -1;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  .circle{
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    z-index: -1;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  .right-bn > .play > .btn-play:hover {
     background-color: var(--green-color)
   }
 
-  .container > .row > .right-bn > .play {
-    padding: 14em 16.5em; 
+  .main-img{
+    max-width: 100%;
+    height: auto;
   }
 
-
-  
-
-@media (max-width: 1500px) {
-
-  .container > .row > .right-bn > div > .circle {
-    top: 12em;
-    left: 11em;
-  }
-
-  .container > .row > .right-bn > .play {
-    padding: 12em 16em; 
-  }
-
-}
-
-@media (max-width: 1200px) {
-
-  .container > .row > .right-bn > div > .circle {
-    top: 6.5em;
-    left: 5.5em;
-  }
-
-  .container > .row > .right-bn > .play {
-    padding: 9.5em 12.5em; 
-  }
-
-
-}
-
-@media (max-width: 992px) {
-    .container > .row > .right-bn > div > .circle {
-      display: none !important;
+  @media (max-width: 992px) {
+    .circle {
+      display: none;
     }
-    .container > .row > .right-bn > div > .heksagon {
-      display: none !important;
+    .heksagon {
+      display: none;
     }
 
+    .banner{
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 75px
+    }
 
   }
 
+  @media (max-width: 575px){
+    .banner h1{
+      font-size: 50px;
+    }
+    .left-bn > .bn-text > p{
+      font-size: 18px;
+    }
+  }
 
   
