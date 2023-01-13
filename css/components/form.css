@@ -1,0 +1,96 @@
+.course-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:450px;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--green-color);
+    border-radius: 40px;
+    padding-right: 250px;
+    padding-left: 250px;
+    
+}
+
+.course-form h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+.course-form input {
+    border: 1px solid transparent;
+    padding: 20px 10px;
+    background-color: var(--green-color);
+    width: 90%;
+    outline: none;
+    font-size: 18px;
+    color: white;
+}
+
+.course-form .span-background {
+    border-bottom: 1px solid white;
+    width: 80%;
+}
+
+
+
+.course-form input::placeholder {
+   color:white;
+   font-size: 17px;
+}
+
+
+.input-flex {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.input-flex button {
+    background-color: var(--green-color);
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+/* kodel neveikia?? 
+FIXED!!
+*/
+
+.input-flex > button > img:hover {
+    filter: invert(28%) sepia(88%) saturate(495%) hue-rotate(357deg) brightness(99%) contrast(98%);
+}
+
+@media(max-width:1500px) {
+    .course-form {
+    padding-right:160px;
+    padding-left:160px;
+    }
+}
+
+@media(max-width:1200px) {
+     .course-form {
+    padding-right:70px;
+    padding-left:70px;
+    }  
+}
+
+@media(max-width:840px) {
+    .course-form {
+    padding-right:10px;
+    padding-left:10px;
+    }
+    .course-form {
+    height: 300px;
+    }
+     .course-form h2 {
+    font-size: 30px;    
+    }
+     
+}
