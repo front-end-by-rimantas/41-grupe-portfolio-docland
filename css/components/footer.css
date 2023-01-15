@@ -141,3 +141,23 @@ footer .btn-subscribe:hover {
     justify-content: center;
  }
 }
+
+@media (max-width: 490px) {
+ .footer-form-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ footer .btn-subscribe {
+    margin-left:0;
+    padding: 18px 28px;
+ }
+}
+
+@media (max-width: 390px) {
+.container-footer {
+    padding: 0.2px 0.2px;
+}
+
+}
