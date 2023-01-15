@@ -1,0 +1,56 @@
+.review-card{
+    padding: 50px 50px 46px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
+}
+
+.review-card p {
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.78;
+    color: #707070;
+}
+
+.student-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.student-title h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #5f52dc;
+    font-family: 'Hind',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.student-title i{
+    color: var(--yellow-color);
+    font-size: 20px;
+    line-height: 1.78;
+    margin-bottom: 6px;
+}
+
+.student-title img {
+    margin-right: 20px;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews > div > .btn-enroll{
+    background-color: var(--green-color);
+}
+
+.reviews > div > .btn-enroll:hover{
+    background-color: var(--yellow-color);
+}
