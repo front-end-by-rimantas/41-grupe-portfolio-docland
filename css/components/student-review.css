@@ -54,3 +54,33 @@
 .reviews > div > .btn-enroll:hover{
     background-color: var(--yellow-color);
 }
+
+.rating{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating > strong{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--yellow-color);
+}
+
+.rating > span{
+    font-size: 20px;
+    color: #5c6b56;
+}
+
+.student-rating > strong{
+    color: var(--green-color);
+}
+
+.rating{
+    margin-top: 60px;
+}
+
+.reviews{
+    margin-top: 50px;
+}
