@@ -100,3 +100,9 @@
         margin-bottom: 0;
     }
 }
+
+@media (max-width: 480px){
+    .countdown{
+        gap: 15px;
+    }
+}
