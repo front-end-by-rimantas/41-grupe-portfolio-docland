@@ -5,6 +5,11 @@
     align-items: center;
     /* justify-content: space-between; */
     gap: 100px;
+    
+  }
+
+  .banner-gradient {
+    background: linear-gradient(to bottom,#F6F8F5 0,rgba(228,255,239,.8) 20%,rgba(228,255,239,0) 100%);
   }
 
   .left-bn{
@@ -174,7 +179,6 @@
     position: absolute;
     left: -75px;
     top: -60px;
-    z-index: -1;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
@@ -199,6 +203,8 @@
   .main-img{
     max-width: 100%;
     height: auto;
+    z-index: 1;
+    position: relative;
   }
 
   @media (max-width: 1500px) {
