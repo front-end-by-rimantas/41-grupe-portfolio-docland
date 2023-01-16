@@ -79,8 +79,9 @@
     font-weight: 500;
     border: none;
     cursor: pointer;
-    margin-right: 26px;
+    /* margin-right: 26px;
     margin-bottom: 26px;
+    margin-left: 20px; */
   }
   
   .btn-enroll:hover {
@@ -90,7 +91,7 @@
   
   .btn-financial {
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 30px;
     color: black;
     font-size: 17px;
     font-weight: 500;
@@ -207,35 +208,55 @@
     position: relative;
   }
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1499px) {
     .circle {
-      padding-left: -100px;
+      padding-right: 90px;
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .circle {
       display: none;
     }
     .heksagon {
       display: none;
     }
-
+    
     .banner{
       flex-direction: column;
       align-items: flex-start;
       gap: 75px
     }
-
-  }
-
-  @media (max-width: 575px){
+    
+    @media (max-width: 560px){
+      .left-bn > .bn-text > p{
+        padding-right: 0;
+      }
+      .btn-financial {
+         margin-left: 10px;
+     }
+    }
+    
+  @media (min-width: 575px){
     .banner h1{
       font-size: 50px;
     }
-    .left-bn > .bn-text > p{
-      font-size: 18px;
-    }
-  }
-
   
+  .btn-financial {
+        font-size: 17px;
+      }
+  .btn-enroll {
+    margin: 0px;
+      }
+
+  .left-bn > .bn-text > p {
+      font-size: 17px;
+  }
+}
+    
+    @media (max-width: 447px){
+      .btn-financial {
+        padding-top: 35px;
+      }
+    } 
+  }
