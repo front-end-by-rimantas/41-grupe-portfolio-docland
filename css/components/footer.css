@@ -1,5 +1,4 @@
 footer {
-    
     margin-bottom: 40px;
 }
 
@@ -10,17 +9,18 @@ footer .socials {
 
 
 footer .fa {
-    background-color: rgba(249, 243, 243, 0.432);
+    background-color: rgba(238, 233, 233, 0.521);
     width: 2.5em;
     height: 2.5em;
     font-size: 16px;
     line-height: 2.5em;
     text-align: center;
     border-radius: 50%;
+    color:#000;
   
 }
 
-footer .fa:hover {
+footer .socials .fa:hover {
     color:white;
     background-color: var(--green-color);
     transition: 1s all;
@@ -53,6 +53,7 @@ footer a {
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: 300;
+    
 }
 
  footer .light {
@@ -62,7 +63,7 @@ footer a {
 
  
 
-footer a:hover {
+footer .other-footer-a:hover {
     color:var(--green-color);
     margin-left: 10px;
     transition: 1s all;
@@ -119,13 +120,13 @@ footer .btn-subscribe:hover {
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
      footer .row {
         text-align:center;
      }
      .socials  {
         justify-content: center;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
      }
      footer a {
         justify-content: center;
@@ -135,10 +136,11 @@ footer .btn-subscribe:hover {
 
 @media (max-width: 990px) {
  .subscribe {
-    margin-top: 100px;
+    margin-top: 80px;
  }
  footer p {
     justify-content: center;
+    margin-bottom: 20px;
  }
 }
 
