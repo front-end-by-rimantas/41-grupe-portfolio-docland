@@ -39,6 +39,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-right: 40px;
+    display: inline-block;
 }
 
 .accordion-title h3{
@@ -228,7 +229,51 @@
     }
 
     .right-content i{
-        margin-left: 35px;
-        margin-right: 35px;
+        margin-left: 33px;
+        margin-right: 18px;
+    }
+
+    .accordion-content span{
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px){
+    .accordion-title > div{
+        margin-left: 20px;
+    }
+
+    .accordion-content{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .accordion-rest{
+        margin-right: 30px;
+    }
+
+    .left-content a{
+        padding-left: 8px;
+    }
+
+    .left-content p{
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 480px){
+    .right-content a {
+        padding-left: 0px;
+    }
+    .right-content{
+        flex-direction: column;
+    }
+    .right-content i {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    #play{
+        font-size: 16px;
     }
 }
