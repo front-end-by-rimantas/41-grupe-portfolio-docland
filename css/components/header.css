@@ -87,7 +87,7 @@ nav > div >a:nth-child(2):hover {
 }
 
 .nav-dropdown {
-    display:none;
+    display: none;
     position: absolute;
     width: 270px;
     top: 100px;
@@ -97,7 +97,7 @@ nav > div >a:nth-child(2):hover {
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     font-weight: 400;
     list-style: none;
-    transition: all 0.2s ease-in;
+    transition: all 0.1s ease-in;
 
 }
 
@@ -114,7 +114,8 @@ nav > div >a:nth-child(2):hover {
     gap:26px;
 }
 
-.nav-menu:hover + .nav-dropdown{
+.nav-menu:hover + .nav-dropdown {
+    transform: translate3d(0, -20px,0);
 }
 
 @media (min-width: 576px) {
