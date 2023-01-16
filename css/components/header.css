@@ -92,7 +92,7 @@ nav > div >a:nth-child(2):hover {
     width: 270px;
     top: 100px;
     background-color: white;
-    padding : 37px 40px;
+    padding : 24px 40px;
     z-index: 999;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     font-weight: 400;
@@ -106,17 +106,28 @@ nav > div >a:nth-child(2):hover {
     font-size: 18px;
 }
 
-.nav-menu:hover + .nav-dropdown {
-    animation: slideDown 0.2s 1;
-}
 .nav-menu:hover + .nav-dropdown, .nav-dropdown:hover{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap:26px;
+    
 }
 
+.nav-dropdown > li, .nav-dropdown > li > a  {
+    padding: 13px 0px;
+}
 
+.nav-dropdown > li > a {
+    transition: all 0.3s;
+}
+
+.nav-dropdown > li > a:hover {
+    margin-left: 6px;
+}
+
+.nav-menu:hover + .nav-dropdown {
+    animation: slideDown 0.2s 1;
+}
 
 @keyframes slideDown {
     from {top: 95px;}
