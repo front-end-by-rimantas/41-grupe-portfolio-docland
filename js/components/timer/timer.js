@@ -31,4 +31,4 @@ const countDown = function () {
 setInterval(countDown, 1000)
 
 
-export default countDown
+export { countDown }
