@@ -1,4 +1,4 @@
-.center-title{
+#center-title{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,4 +129,34 @@
         padding: 30px 30px 40px;
     }
 }
-    
+
+@media (max-width: 576px){
+    .pricing-card{
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .pricing-card{
+        padding: 20px 20px 30px;
+    }
+
+    .pricing-card p {
+       font-size: 14px;
+    }
+
+    .pricing-card li {
+        font-size: 14px;
+    }
+
+    .price strong  {
+        font-size: 50px;
+    }
+
+    .price span {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+}
