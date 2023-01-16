@@ -42,7 +42,7 @@ nav > div {
 }
 
 nav > ul a {
-    color: #6f7c6a;
+    color: #5c6b56;
     transition: all 0.3s;
     font-size: 20px;
     padding: 0 10px;
@@ -89,21 +89,33 @@ nav > div >a:nth-child(2):hover {
 .nav-dropdown {
     display:none;
     position: absolute;
+    width: 270px;
     top: 100px;
     background-color: white;
-    padding : 20px 10px;
+    padding : 37px 40px;
     z-index: 999;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     font-weight: 400;
     list-style: none;
+    transition: all 0.2s ease-in;
+
+}
+
+.nav-dropdown > li > a {
+    color: var(--main-font-color);
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .nav-menu:hover + .nav-dropdown, .nav-dropdown:hover{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    justify-content: flex-start;
+    gap:26px;
 }
 
+.nav-menu:hover + .nav-dropdown{
+}
 
 @media (min-width: 576px) {
    nav > ul {
