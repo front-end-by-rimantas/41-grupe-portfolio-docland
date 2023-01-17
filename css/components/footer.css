@@ -151,6 +151,10 @@ footer .btn-subscribe:hover {
     justify-content: center;
  }
 
+ footer .other-footer-a:hover {
+    margin-left: 0;
+}
+
  footer .btn-subscribe {
     margin-left:0;
     padding: 18px 28px;
