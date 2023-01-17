@@ -15,15 +15,19 @@ function burger() {
     burgerButton.addEventListener('click', function () {
         burgerMenu.classList.toggle('hidden');
         overlay.classList.toggle('gray-overlay');
+        burgerMenu.classList.toggle('burger-slidein');
     });
 
     exitBtn.addEventListener('click', function () {
         burgerMenu.classList.toggle('hidden');
         overlay.classList.toggle('gray-overlay');
+        burgerMenu.classList.toggle('burger-slidein');
     });
+
     overlay.addEventListener('click', function () {
         burgerMenu.classList.toggle('hidden');
         overlay.classList.toggle('gray-overlay');
+        burgerMenu.classList.toggle('burger-slidein');
     });
 }
 

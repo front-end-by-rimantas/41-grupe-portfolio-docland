@@ -38,8 +38,6 @@ nav > ul {
     margin: 0 26px 0 38px;
 }
 
-
-
 nav > div {
     display: none;
 }
@@ -57,7 +55,6 @@ nav > ul > li > a {
 
 nav > ul a:hover {
     color: var(--green-color);
-    
 }
 
 nav > div > a:nth-child(1) {
@@ -102,17 +99,10 @@ nav > div >a:nth-child(2):hover {
     transition: all 0.2s ease-in;
 }
 
-.nav-dropdown > li > a {
-    color: var(--main-font-color);
-    font-weight: 400;
-    font-size: 18px;
-}
-
 .nav-menu:hover + .nav-dropdown, .nav-dropdown:hover{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
 }
 
 .nav-dropdown > li, .nav-dropdown > li > a  {
@@ -120,6 +110,9 @@ nav > div >a:nth-child(2):hover {
 }
 
 .nav-dropdown > li > a {
+    color: var(--main-font-color);
+    font-weight: 400;
+    font-size: 18px;
     transition: all 0.3s;
 }
 
@@ -144,13 +137,31 @@ nav > div >a:nth-child(2):hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     z-index: 10;
     width:400px;
     padding: 50px;
-    gap: 30px;
+    gap: 50px;
     height:100%;
 }
+
+.burger-slidein {
+    animation: slideIn 0.4s
+}
+
+.burger-slideout {
+    animation: slideOut 0.4s
+}
+
+@keyframes slideIn {
+    from {right: -400px;}
+    to {right: 0px;}
+  }
+
+@keyframes slideOut {
+    from {right: 0px;}
+    to {right: -400px;}
+  }
 
 .burger-menu > ul {
     display:flex;
@@ -159,6 +170,16 @@ nav > div >a:nth-child(2):hover {
     justify-content: flex-start;
     gap: 10px;
     font-size: 20px;
+    transition: all 0.3s;
+}
+
+.burger-menu > ul li {
+    padding: 10px 0px;
+}
+
+.burger-menu a {
+    color: var(--main-font-color);
+    transition: all 0.2s;
 }
 
 .burger-menu > ul > li > div {
@@ -182,6 +203,18 @@ nav > div >a:nth-child(2):hover {
     top:        0; 
     left:       0; 
     position:   fixed; 
+}
+
+.burger-dropdown {
+    display:flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.burger-menu a:hover {
+    color: var(--green-color)
 }
 
 @media (min-width: 576px) {
