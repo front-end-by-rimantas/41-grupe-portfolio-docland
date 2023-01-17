@@ -110,7 +110,6 @@
 
 @media (max-width: 400px){
 
-
     .timer {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -120,3 +119,13 @@
         font-size: 30px;
       }
 
+    }
+
+    @media (max-width: 340px){
+
+ .countdown{
+        gap: 15px;
+        margin-bottom: 0;
+    }
+
+    }
