@@ -1,12 +1,13 @@
 /* Import */
 
 import { countDown } from "../components/timer/timer.js";
-
+import { burgerClick } from '../components/header/burger.js';
 
 
 /* Execution */
 
 /* header start */
+burgerClick();
 /* header end */
 
 /* hero start */
