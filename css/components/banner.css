@@ -254,9 +254,12 @@
   }
 }
     
-    @media (max-width: 447px){
+    @media (max-width: 470px){
       .btn-financial {
         padding-top: 35px;
+      }
+      .btn-enroll {
+    margin-right: 20px;
       }
     } 
   }
