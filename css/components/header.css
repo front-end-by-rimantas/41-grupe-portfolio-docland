@@ -3,6 +3,10 @@ header {
     display: flex;
 }
 
+nav ul {
+    list-style: none;
+}
+
 header > div a {
     text-decoration: none;
 }
@@ -30,7 +34,6 @@ nav {
 
 nav > ul {
     display: none;
-    list-style: none;
     align-items: center;
     margin: 0 26px 0 38px;
 }
@@ -96,7 +99,6 @@ nav > div >a:nth-child(2):hover {
     z-index: 999;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     font-weight: 400;
-    list-style: none;
     transition: all 0.2s ease-in;
 }
 
@@ -134,6 +136,48 @@ nav > div >a:nth-child(2):hover {
     to {top: 100px;}
   }
 
+
+.burger-menu {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    z-index: 10;
+    width:400px;
+    padding: 50px;
+    gap: 30px;
+}
+
+.burger-menu > ul {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.burger-menu > ul > li > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger-logo {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-dropdown {
+    display: none;
+}
+
+
 @media (min-width: 576px) {
    nav > ul {
         display: none;
@@ -144,6 +188,7 @@ nav > div >a:nth-child(2):hover {
     nav > a {
         display: inline;
     }
+    
 }
 
 @media (min-width: 992px) {
@@ -157,7 +202,9 @@ nav > div >a:nth-child(2):hover {
     nav > a {
         display: none !important;
     }
-
+    .burger-menu {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
