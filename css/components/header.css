@@ -35,23 +35,27 @@ nav > ul {
     margin: 0 26px 0 38px;
 }
 
+
+
 nav > div {
     display: none;
 }
 
 nav > ul a {
-    color: #6f7c6a;
+    color: #5c6b56;
     transition: all 0.3s;
     font-size: 20px;
     padding: 0 10px;
+}
+
+nav > ul > li > a {
+    padding-bottom: 40px;
 }
 
 nav > ul a:hover {
     color: var(--green-color);
     
 }
-
-
 
 nav > div > a:nth-child(1) {
     color: var(--yellow-color);
@@ -82,8 +86,53 @@ nav > div >a:nth-child(2):hover {
     background-color: var(--yellow-color);
 }
 
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    width: 270px;
+    top: 100px;
+    background-color: white;
+    padding : 24px 40px;
+    z-index: 999;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    font-weight: 400;
+    list-style: none;
+    transition: all 0.2s ease-in;
+}
 
+.nav-dropdown > li > a {
+    color: var(--main-font-color);
+    font-weight: 400;
+    font-size: 18px;
+}
 
+.nav-menu:hover + .nav-dropdown, .nav-dropdown:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.nav-dropdown > li, .nav-dropdown > li > a  {
+    padding: 13px 0px;
+}
+
+.nav-dropdown > li > a {
+    transition: all 0.3s;
+}
+
+.nav-dropdown > li > a:hover {
+    margin-left: 6px;
+}
+
+.nav-menu:hover + .nav-dropdown {
+    animation: slideDown 0.2s 1;
+}
+
+@keyframes slideDown {
+    from {top: 95px;}
+    to {top: 100px;}
+  }
 
 @media (min-width: 576px) {
    nav > ul {
@@ -112,7 +161,8 @@ nav > div >a:nth-child(2):hover {
 }
 
 @media (min-width: 1200px) {
-    nav > ul a {
-        padding: 0 24px;
+    nav > ul > li > a {
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }

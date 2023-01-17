@@ -96,13 +96,27 @@
     }
 
     .countdown{
-        gap: 35px;
+        gap: 25px;
         margin-bottom: 0;
     }
+
+
+
+    .single-countdown h2{
+        font-size: 60px;
+      }
+    
 }
 
-@media (max-width: 480px){
-    .countdown{
-        gap: 15px;
+@media (max-width: 400px){
+
+
+    .timer {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
-}
+
+      .single-countdown h2{
+        font-size: 30px;
+      }
+
