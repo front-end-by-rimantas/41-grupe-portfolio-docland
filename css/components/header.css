@@ -173,10 +173,6 @@ nav > div >a:nth-child(2):hover {
     align-items: center;
 }
 
-.burger-dropdown {
-    display: none;
-}
-
 
 @media (min-width: 576px) {
    nav > ul {
