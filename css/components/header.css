@@ -203,6 +203,7 @@ nav > div >a:nth-child(2):hover {
     top:        0; 
     left:       0; 
     position:   fixed; 
+    transition: all 0.4s;
 }
 
 .burger-dropdown {
