@@ -145,6 +145,10 @@ nav > div >a:nth-child(2):hover {
     height:100%;
 }
 
+.burger-link:hover {
+    cursor: pointer;
+}
+
 .burger-slidein {
     animation: slideIn 0.4s;
     right: 0px
@@ -214,9 +218,22 @@ nav > div >a:nth-child(2):hover {
     margin-top: 24px;
     margin-left: 20px;
     font-size: 18px;
+    overflow:hidden;
+    animation: slideDown 1s ease-in;
 }
 
-.burger-menu a:hover {
+
+@keyframes slideDown {
+    from {max-height: 0px;}
+    to {max-height: 1000px;}
+}
+
+@keyframes slideUp {
+    from {max-height: 1000px;}
+    to {max-height: 0px;}
+}
+
+.burger-link:hover a, .burger-pricing:hover a {
     color: var(--green-color)
 }
 
