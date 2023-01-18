@@ -13,21 +13,21 @@ function burger() {
     }
 
     burgerButton.addEventListener('click', function () {
-        burgerMenu.classList.toggle('hidden');
         overlay.classList.toggle('gray-overlay');
         burgerMenu.classList.toggle('burger-slidein');
+        burgerMenu.classList.remove('burger-slideout');
     });
 
     exitBtn.addEventListener('click', function () {
-        burgerMenu.classList.toggle('hidden');
-        overlay.classList.toggle('gray-overlay');
-        burgerMenu.classList.toggle('burger-slidein');
+        overlay.classList.remove('gray-overlay');
+        burgerMenu.classList.remove('burger-slidein');
+        burgerMenu.classList.add('burger-slideout');
     });
 
     overlay.addEventListener('click', function () {
-        burgerMenu.classList.toggle('hidden');
         overlay.classList.toggle('gray-overlay');
-        burgerMenu.classList.toggle('burger-slidein');
+        burgerMenu.classList.add('burger-slideout');
+        burgerMenu.classList.remove('burger-slidein');
     });
 }
 

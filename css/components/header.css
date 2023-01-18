@@ -132,7 +132,7 @@ nav > div >a:nth-child(2):hover {
 
 .burger-menu {
     position: fixed;
-    right: 0px;
+    right: -400px;
     top: 0px;
     display: flex;
     flex-direction: column;
@@ -146,11 +146,13 @@ nav > div >a:nth-child(2):hover {
 }
 
 .burger-slidein {
-    animation: slideIn 0.4s
+    animation: slideIn 0.4s;
+    right: 0px
 }
 
 .burger-slideout {
-    animation: slideOut 0.4s
+    animation: slideOut 0.4s;
+    right: -400px;
 }
 
 @keyframes slideIn {
