@@ -14,7 +14,7 @@ function burger() {
 
     burgerButton.addEventListener('click', function () {
         overlay.classList.toggle('gray-overlay');
-        burgerMenu.classList.toggle('burger-slidein');
+        burgerMenu.classList.add('burger-slidein');
         burgerMenu.classList.remove('burger-slideout');
     });
 

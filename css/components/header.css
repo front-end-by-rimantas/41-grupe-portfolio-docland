@@ -222,18 +222,25 @@ nav > div >a:nth-child(2):hover {
     animation: slideDown 1s ease-in;
 }
 
-
 @keyframes slideDown {
     from {max-height: 0px;}
     to {max-height: 1000px;}
 }
 
+/* .slide-up {
+    animation: slideUp 1s ease-in;
+}
+
+.slide-down {
+    animation: slideDown 1s ease-in;
+}
+
 @keyframes slideUp {
     from {max-height: 1000px;}
     to {max-height: 0px;}
-}
+} */
 
-.burger-link:hover a, .burger-pricing:hover a {
+.burger-link:hover a, .burger-pricing:hover a, .burger-menu a:hover {
     color: var(--green-color)
 }
 
