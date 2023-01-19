@@ -145,6 +145,10 @@ nav > div >a:nth-child(2):hover {
     height:100%;
 }
 
+.exit-burger {
+    transform: scale(1.5);
+}
+
 .burger-link:hover {
     cursor: pointer;
 }
@@ -227,6 +231,34 @@ nav > div >a:nth-child(2):hover {
     to {max-height: 1000px;}
 }
 
+.caret-down {
+    animation: caretDown 0.3s forwards;
+}
+
+.caret-right {
+    animation: caretRight 0.3s forwards;
+}
+
+@keyframes caretRight {
+    from {
+        transform: rotateZ(90deg);
+    }
+    to {
+        transform: rotateZ(0deg);
+      }
+}
+
+
+@keyframes caretDown {
+    from {
+        transform: rotateZ(0deg);
+      }
+      to {
+        transform: rotateZ(90deg);
+      }
+}
+
+
 /* .slide-up {
     animation: slideUp 1s ease-in;
 }
@@ -243,6 +275,12 @@ nav > div >a:nth-child(2):hover {
 .burger-link:hover a, .burger-pricing:hover a, .burger-menu a:hover {
     color: var(--green-color)
 }
+
+@media (max-width: 600px) {
+    .burger-menu {
+        width:280px;
+    }
+ }
 
 @media (min-width: 576px) {
    nav > ul {
