@@ -1,6 +1,7 @@
 /* Import */
 
 import { countDown } from "../components/timer/timer.js";
+import { carousel } from "../components/carousel/carousel.js";
 
 
 
@@ -16,8 +17,9 @@ import { countDown } from "../components/timer/timer.js";
 countDown();
 /* timer end */
 
-/* section start */
-/* section end */
+/* section course benefit start */
+carousel();
+/* section course benefit end */
 
 /* section start */
 /* section end */
