@@ -6,7 +6,8 @@ const hiddenTiles = document.querySelectorAll(".benefit-tile");
 
 console.log(hiddenTiles)
 
- function carousel() {
+function carousel() {
+   
   
 
    nextButton.addEventListener("click", function () {

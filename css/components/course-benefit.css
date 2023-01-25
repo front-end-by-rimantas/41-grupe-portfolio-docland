@@ -28,8 +28,13 @@
     align-items: center;
     width:322px;
     flex: 0 0 auto;
-       overflow: hidden;
+    overflow: hidden;
    
+}
+
+.benefit-tile h3 {
+    font-weight:400;
+    font-size: 24px;
 }
 
 .benefit-tile > .benefit-icon > img{
