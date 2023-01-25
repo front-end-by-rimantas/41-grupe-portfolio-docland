@@ -11,6 +11,8 @@
     color: var(--main-font-color);
     scroll-behavior: smooth;
     overflow: hidden;
+  
+   
    
 }
 
@@ -29,6 +31,7 @@
     width:322px;
     flex: 0 0 auto;
     overflow: hidden;
+    
    
 }
 
