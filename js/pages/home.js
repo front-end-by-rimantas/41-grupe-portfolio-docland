@@ -1,7 +1,7 @@
 /* Import */
 
 import { countDown } from "../components/timer/timer.js";
-import { carousel } from "../components/carousel/carousel-benefits.js";
+import { carousel } from "../components/carousel/carousel-benefit.js";
 
 
 
