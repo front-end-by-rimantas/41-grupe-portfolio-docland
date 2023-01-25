@@ -5,11 +5,19 @@
 
 .course-benefits {
     display:flex;
-    justify-content: space-between;
+    justify-self: flex-start;
     gap: 30px;
     height: 135px;
-    color: var(--main-font-color)
+    color: var(--main-font-color);
+    scroll-behavior: smooth;
+    overflow: hidden;
+   
 }
+
+.course-benefits::-webkit-scrollbar { 
+    display:none
+}
+
 
 .course-buttons > a:first-child {
     margin-right: 12px;
@@ -17,8 +25,11 @@
 
 .benefit-tile {
     display:flex;
-    justify-content: center;
     align-items: center;
+    width:322px;
+    flex: 0 0 auto;
+       overflow: hidden;
+   
 }
 
 .benefit-tile > .benefit-icon > img{
@@ -54,18 +65,23 @@
     padding: 0px 20px;
 }
 
-.course-benefits > .benefit-tile:nth-child(1) > div:nth-child(1) {
-    background-color: #d7eff9;
+
+#light-blue {
+   background-color: #d7eff9;
 }
-.course-benefits > .benefit-tile:nth-child(2) > div:nth-child(1) {
-    background-color: #e6fffa;
+
+#light-green {
+   background-color: #e6fffa;
 }
-.course-benefits > .benefit-tile:nth-child(3) > div:nth-child(1) {
-    background-color: #e9e6ff;
+
+#light-purple {
+   background-color: #E9E6FF;
 }
-.course-benefits > .benefit-tile:nth-child(4) > div:nth-child(1) {
-    background-color: #fff6db;
+
+#light-yellow {
+   background-color: #FFF6DB;
 }
+
 
 @media (max-width: 452px) {
     .course-buttons {
@@ -74,23 +90,72 @@
  }
 
 
-@media (max-width: 768px) {
-    .course-benefits > .benefit-tile:nth-child(2){
-        display: none;
-     }
-     .course-benefits{
-        justify-content: center;
-     }
- }
  
  @media (max-width: 1200px) {
-    .course-benefits > .benefit-tile:nth-child(3){
-        display: none;
-     }
+    .benefit-tile {
+    width:450px !important
+    }
  }
  
  @media (max-width: 1500px) {
-    .course-benefits > .benefit-tile:nth-child(4){
-        display: none;
-     }
+    .benefit-tile {
+    width:350px;
+    }
+
+    
  }
+
+  @media (max-width: 990px) {
+    .benefit-tile {
+    width:320px !important
+    }
+
+    
+ }
+
+  @media (max-width: 770px) {
+    .benefit-tile {
+    width:500px !important;
+    }
+
+ }
+
+
+ @media (max-width: 530px) {
+    .benefit-tile {
+    width:450px !important;
+    }
+
+ } 
+
+   @media (max-width: 500px) {
+    .benefit-tile {
+    width:410px !important;
+    
+    }
+
+ } 
+
+   @media (max-width: 470px) {
+    .benefit-tile {
+    width:380px !important;
+    }
+} 
+
+  @media (max-width: 430px) {
+    .benefit-tile {
+    width:340px !important;
+    }
+} 
+
+  @media (max-width: 390px) {
+    .benefit-tile {
+    width:300px !important;
+    }
+} 
+
+  @media (max-width: 360px) {
+    .benefit-tile {
+    width:270px !important;
+    }
+} 
