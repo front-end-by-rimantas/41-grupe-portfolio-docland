@@ -2,11 +2,13 @@
 
 import { countDown } from "../components/timer/timer.js";
 import { burger } from '../components/header/burger.js';
+import { stickyNav} from '../components/navigation/sticky-nav.js'
 
 /* Execution */
 
 /* header start */
 burger();
+stickyNav();
 /* header end */
 
 /* hero start */
