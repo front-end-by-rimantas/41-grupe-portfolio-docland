@@ -4,10 +4,12 @@ import { countDown } from "../components/timer/timer.js";
 import { carousel } from "../components/carousel/carousel-benefit.js";
 
 
+import { burger } from '../components/header/burger.js';
 
 /* Execution */
 
 /* header start */
+burger();
 /* header end */
 
 /* hero start */
