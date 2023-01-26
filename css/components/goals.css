@@ -55,7 +55,7 @@
     }
 } */
 
-/* 
+
 @media (max-width:992px) {
     .course-buttons {
         display:none;
@@ -63,7 +63,7 @@
     .goals-group > .wireframe {
         display:none;
     }
-} */
+} 
 
 @media (max-width:768px) {
     .goals-group >.goal-tile {

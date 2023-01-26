@@ -12,17 +12,20 @@ function goalsCarousel() {
      
 
  nextBtn.addEventListener('click', function () {
-    // slides.forEach(e => e.classList.remove('hidden'));
+   
    const newElement = slidesContainer.firstElementChild;
-   newElement.appendChild(slides);
+   slidesContainer.appendChild(newElement);
       currentSilde++;
-       slides.forEach((s) => s.style.transform = `translateX(-100% `);
+      //  slides.forEach((s) => s.style.transform = `translateX(-100% `);
        slidesContainer.style.overflow = 'hidden';
   })
 
-    prevBtn.addEventListener('click', function () {
+  prevBtn.addEventListener('click', function () {
+      
+      const newElement = slidesContainer.firstElementChild;
+   slidesContainer.appendChild(newElement);
       currentSilde--;
-        slides.forEach((s) => s.style.transform = `translateX(+100%`);
+        // slides.forEach((s) => s.style.transform = `translateX(+100%`);
       slidesContainer.style.overflow = 'hidden';
   })
  }
