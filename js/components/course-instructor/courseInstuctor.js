@@ -19,21 +19,21 @@ const courseInstructor = function (data) {
                             <ul style="background-color: #fff">
                                 <li>
                                     <i
-                                        class="fa fa-${item.icons.icon}"
+                                        class="fa fa-${item.icon1}"
                                         aria-hidden="true"
                                     ></i
-                                    >${item.icons.text}
+                                    >${item.textIcon1}
                                 </li>
                                 <li>
                                     <i
-                                        class="fa fa-${item.icons.icon}"
+                                        class="fa fa-${item.icon2}"
                                         aria-hidden="true"
                                     ></i
-                                    >${item.icons.text}
+                                    >${item.textIcon2}
                                 </li>
                                 <li>
-                                    <i class="fa fa-${item.icons.icon}" aria-hidden="true"></i
-                                    >${item.icons.text}
+                                    <i class="fa fa-${item.icon3}" aria-hidden="true"></i
+                                    >${item.textIcon3}
                                 </li>
                             </ul>
                         </div>
