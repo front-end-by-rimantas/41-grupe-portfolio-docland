@@ -9,7 +9,7 @@ const courseInstructor = function (data) {
         HTML += `<div class="col-12 col-lg-6 course-instr-background">
                     <div class="course-in-flex">
                         <img
-                            src="./img/author01.png"
+                            src=${item.img}
                             alt="Sarah Taylor photo"
                             style="background-color: #fff"
                         />
