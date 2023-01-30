@@ -7,9 +7,9 @@
   --green-color: #5dd9c1;
   --main-font-color:#292929;
 }
-html {
+ html {
     scroll-behavior: smooth;
-}
+} 
 
 body,
 body * {
@@ -22,4 +22,5 @@ body * {
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #F6F8F5;
+   
 }
