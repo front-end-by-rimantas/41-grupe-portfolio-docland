@@ -5,11 +5,13 @@ import { carousel } from "../components/carousel/carousel-benefit.js";
 
 
 import { burger } from '../components/header/burger.js';
+import { stickyNav} from '../components/navigation/sticky-nav.js'
 
 /* Execution */
 
 /* header start */
 burger();
+stickyNav();
 /* header end */
 
 /* hero start */
