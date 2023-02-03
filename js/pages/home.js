@@ -5,7 +5,11 @@ import { carousel } from "../components/carousel/carousel-benefit.js";
 
 
 import { burger } from '../components/header/burger.js';
+
+import { goalsCarousel } from '../components/timer/goals-carousel.js'
+
 import { stickyNav} from '../components/navigation/sticky-nav.js'
+
 
 /* Execution */
 
@@ -25,8 +29,9 @@ countDown();
 carousel();
 /* section course benefit end */
 
-/* section start */
-/* section end */
+/* what-you-will-learn carousel start */
+goalsCarousel();
+/* what-you-will-learn carousel end */
 
 /* section start */
 /* section end */
